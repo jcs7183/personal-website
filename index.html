@@ -38,10 +38,11 @@
     <div class="container">
       <div class="masthead">
         <ul class="nav nav-justified">
-          <li class="active"><a href="#">Jose Salazar</a></li>
+          <li class="active"><a href="#"> <span class="glyphicon glyphicon-home"></span> Home</a></li>
           <li><a href="https://www.linkedin.com/in/josecsalazar"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
           <li><a href="#courseWork"><span class="glyphicon glyphicon-pencil"></span> Education</a></li>
-          <li><a href="#workExp"><span class="glyphicon glyphicon-compressed"></span> Work Experience</a></li>
+          <li><a href="#workExp"><span class="glyphicon glyphicon-compressed"></span> Experience</a></li>
+          <li><a href="#projectExp"><span class="glyphicon glyphicon-folder-open"></span> Projects</a></li>
           <li><a href="#skills"><span class="glyphicon glyphicon-list-alt"></span> Skills</a></li>
           <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
         </ul>
@@ -79,12 +80,12 @@
                   </div>
                     <!-- Comp Sci Major Section -->
                     <p><b>BSc Computer Science - Rochester Institute of Technology, Rochester NY</b></p>
-                    <h6>Expected Graduation May 2016</h6>
+                    <h6>Graduated May 2016</h6>
                     <P><i>A degree focusing in the scientific and practical approach to computation and its applications, as well as supporting usage in industry as a specialist in the theory of computation and the design of computational systems.</i></p>
 
                     <div class = "span12 collapse-group">
                       <div class="text-center">
-                        <a class="btn btn-sm btn-primary text-center center-block" data-toggle="collapse" data-target="#classinfo">Coursework Details &raquo;</a>
+                        <a class="btn btn-sm btn-primary text-center center-block" data-toggle="collapse" data-target="#classinfo">Coursework &raquo;</a>
                       </div>
                       <table class="table table-striped collapse" id="classinfo">
                         <thead>
@@ -97,13 +98,77 @@
 
 
                         <tbody>
+                          <!-- Independent Study: Natural Phenomenon - Smoke -->
+                          <tr>
+                            <td><b>Independent Study: Smoke</b></td>
+                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#indepStudy">Details &raquo;</a></td>
+                            <td><p class="text-center">C++, OpenGL</p></td>
+                          </tr>
+                          <tr class="collapse out" id="indepStudy">
+                            <td> <b>Course Level</b>: 500 <br><br>At the end of this course, students are able to:
+                              <ul>
+                              <li>Explain and implement real-time physics based models of smoke.</li>
+                              <li>Explain and implement traditional solutions in two-dimensional applications.</li>
+                              <li>Explain and implement advance solutions in three-dimensional applications.</li>
+                              </ul>
+                            </td>
+                          </tr>
+
+                          <!-- Global Illuminations -->
+                          <tr>
+                            <td><b>Global Illuminations</b></td>
+                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#globalIllum">Details &raquo;</a></td>
+                            <td><p class="text-center">Java, OpenGL, Javascript, WebGL</p></td>
+                          </tr>
+                          <tr class="collapse out" id="globalIllum">
+                            <td> <b>Course Level</b>: 700 | <b>Graduate</b><br><br>At the end of this course, students are able to:
+                              <ul>
+                              <li>Explain and implement a ray-tracing application from the ground up.</li>
+                              <li>Explain and implement another advance topic in computer graphics through independent research.</li>
+                              <li>Explain recent academic papers and publications related to advance topics in computer graphics.</li>
+                              </ul>
+                            </td>
+                          </tr>
+
+                          <!-- Introduction to Computer Graphics -->
+                          <tr>
+                            <td><b>Introduction to Computer Graphics</b></td>
+                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#introGraphics">Details &raquo;</a></td>
+                            <td><p class="text-center">Java, OpenGL</p></td>
+                          </tr>
+                          <tr class="collapse out" id="introGraphics">
+                            <td> <b>Course Level</b>: 500 <br><br>At the end of this course, students are able to:
+                              <ul>
+                              <li>Explain evolution of computer graphics, both hardware and software.</li>
+                              <li>Explain and implement 2D graphics and algorithms. </li>
+                              <li>Explain the concepts and implement the stages of a 3D computer graphics pipeline.</li>
+                              </ul>
+                            </td>
+                          </tr>
+
+                          <!-- Operating Systems -->
+                          <tr>
+                            <td><b>Operating Systems</b></td>
+                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#operSys">Details &raquo;</a></td>
+                            <td><p class="text-center">MIPS Assembly</p></td>
+                          </tr>
+                          <tr class="collapse out" id="operSys">
+                            <td> <b>Course Level</b>: 300 <br><br>At the end of this course, students are able to:
+                              <ul>
+                              <li>Explain the history and components of operating systems.</li>
+                              <li>Explain and implement a scheudling manager.</li>
+                              <li>Explain and implement an operating system in a simulated environment.</li>
+                              </ul>
+                            </td>
+                          </tr>
+
                           <!-- Programming with Inexpensive Robots -->
                           <tr>
                             <td><b>Programming with Inexpensive Robots</b></td>
                             <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#progInexp">Details &raquo;</a></td>
                             <td><p class="text-center">C, Python, Java</p></td>
                           </tr>
-                          <tr class="collapse out" id="progInexp"> 
+                          <tr class="collapse out" id="progInexp">
                             <td> <b>Course Level</b>: 500 | <b>Study Abroad</b> (Croatia)<br><br>At the end of this course, students are able to:
                               <ul>
                               <li>Explain hardware design choices of modern mobile robots.</li>
@@ -117,9 +182,9 @@
                           <tr>
                             <td><b>Introduction to Intelligent Systems</b></td>
                             <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#introIS">Details &raquo;</a></td>
-                            <td><p class="text-center">Python,Prolog</p></td>
+                            <td><p class="text-center">Python, Prolog</p></td>
                           </tr>
-                          <tr class="collapse out" id="introIS"> 
+                          <tr class="collapse out" id="introIS">
                             <td> <b>Course Level</b>: 300 | <b>Study Abroad</b> (Croatia)<br><br>At the end of this course, students are able to:
                               <ul>
                               <li>Explain the attributes of various search techniques and the situations to which they are well-suited. </li>
@@ -135,7 +200,7 @@
                             <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#concPar">Details &raquo;</a></td>
                             <td><p class="text-center">Java</p></td>
                           </tr>
-                          <tr class="collapse out" id="concPar"> 
+                          <tr class="collapse out" id="concPar">
                             <td> <b>Course Level</b>: 200<br><br>At the end of this course, students are able to:
                               <ul>
                               <li>Explain the concepts of processes, threads, and scheduling.</li>
@@ -148,7 +213,7 @@
                           <!-- Data Comm. Section -->
                           <tr>
                             <td><b>Data Communication and Networks I</b></td>
-                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#dataComm">Details &raquo;</a></td> 
+                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#dataComm">Details &raquo;</a></td>
                             <td><p class="text-center">C#</p></td>
                           </tr>
                           <tr class="collapse out" id="dataComm">
@@ -178,7 +243,7 @@
                             </td>
                           </tr>
 
-                          <!-- Prog. Lang. Concepts Section -->     
+                          <!-- Prog. Lang. Concepts Section -->
                           <tr>
                             <td><b>Programming Language Concepts</b></td>
                             <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#progLang">Details &raquo;</a></td>
@@ -277,7 +342,7 @@
                           <!-- Data Struct Section -->
                           <tr>
                             <td><b>Data Structures for Problem Solving</b></td>
-                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#dataStruct">Details &raquo;</a></td>                        
+                            <td><a class="btn btn-sm btn-primary" data-toggle="collapse" data-target="#dataStruct">Details &raquo;</a></td>
                             <td><p class="text-center">Python</p></td>
                           </tr>
                           <tr class="collapse out" id="dataStruct">
@@ -308,113 +373,6 @@
                         </tbody>
                       </table>
                       <br>
-                      <div class = "collapse-group">
-                        <div class="text-center">
-                          <a class="btn btn-sm btn-primary text-center center-block" data-toggle="collapse" data-target="#acadProj">Academic Projects &raquo;</a>
-                        </div>
-                        <table class="table table-striped collapse" id="acadProj">
-                          <thead>
-                            <tr>
-                              <br>
-                            </tr>
-                          </thead>
-
-                          <tbody>
-                            <tr>
-                              <td><p class="text-center"><b>Programming with Inexpensive Robots<br>Coursework</b></p><p class="text-center"><small><i>C, Arduino, Java</i></small></p></td>
-                              <td>
-                                <p>This project-based course focused on the gradual implementation of several robotic algorithms given the constraints of a $100 children's learning robot with limited RAM. Features implemented included: probability based mapping, edge detection, obstacle avoidance, localization, and ultimately SLAM (Simultaneous localization and mapping). A Bluetooth module attached to the robot was leveraged to mitigate memory constraints and utilize a remote terminal for more complex tasks, sending commands and receiving location and mapping data from the robot. The map and more complex routines, including the blue tooth receiving module, was programmed in Java and displayed using Java's Swing GUI package, while simple routines and actions were programmed in C on the robot itself.  </p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>Intro to Intelligent Systems<br>Coursework</b></p><p class="text-center"><small><i>Java</i></small></p></td>
-                              <td>
-                                <p>Projects in this course utilized OpenStreetMap data for the city of Dubrovnik, Croatia to discover estimated travel time for the fastest routes between points, along with the route itself. Demonstration of an understanding of various machine learning algorithms was required. Techniques I chose to utilize included implementations of Linear Regression, Statistical Classification, and a developed Genetic Algorithm.</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>Conc. of Para. and Dist. Systems<br>Coursework</b></p><p class="text-center"><small><i>Java</i></small></p></td>
-                              <td>
-                                <p>Projects in this course focused on two areas, the first of which was related to basic multithreading computations in order to solve trivial calculus proofs regarding prime numbers. The second group of projects focused on the manipulation of sockets to implement both a UDP and TCP Client and Server for an implementation of Connect Four. </p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>Data Comm. and Net. I<br>Coursework</b></p><p class="text-center"><small><i>C#</i></small></p></td>
-                              <td>
-                                <p>Projects in this course dealt with the implementation of several forms of File Transfer Protocol to RCA standards, including standard FTP and standard TFTP (Trivial FTP) clients. Additionally, a modified TFTP client was tasked to be built which manually handled Hamming Code and Bit Correction for incoming byte streams.</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>Intro to S.E.<br>Coursework<br>(Team)</b></p><p class="text-center"><small><i>Python<br>Django<br>SQL</i></small></p></td>
-                              <td>
-                                <p>This project focused on the development of a web application by a team of students, ideally, acting as the role of one of five standard development positions.</p>
-                                <p>For this entire duration of this project I was Team Coordinator for my group, and at certain times, I played the additional role of Requirements Coordinator. Throughout this project my team and I worked to create a web application in which users could create accounts, using a simple sql back-end database, and log in to our system. In this application users were expected to don the hat of either borrows or lenders of tools within a radius, of what was assumed to be a single neighborhood.</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>P.L.C.<br>Coursework</b></p><p class="text-center"><small><i>Common LISP<br>Haskell<br>Prolog</i></small></p></td>
-                              <td>
-                                <p>Projects in this course explored non-object oriented programming paradigms, and appropriate applications for each, including functional and logical.</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>Computer Organization<br>Coursework</b></p><p class="text-center"><small><i>MIPS<br>Assembly</i></small></p></td>
-                              <td>
-                                <p>Projects in this course dealt exclusively with assembly level applications, and focused on demonstrating the performance and limitations of programs written at this level. The core project in this course was the recreation of a recursive puzzle solver for a game called Trees, which behaved similar to Sudoku.</p>
-                              </td>
-                            </tr>                            
-                            <tr>
-                              <td><p class="text-center"><b>C.S. 4<br>Coursework</b></p><p class="text-center"><small><i>C++</i></small></p></td>
-                              <td>
-                                <p>Projects in this course focused on writing generically typed code and abstractions, and their applications. The main project began as an individual assignment, in which we would need to devise a generic AI solution with memoization to simple two-player command line games, and merge our code with a partner in later stages while maintaining this generic solution for more complex games.</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>O.O.<br>Coursework</b></p><p class="text-center"><small><i>Java</i></small></p></td>
-                              <td>
-                                <p>Projects in this course dealt with an introduction to Graphical User Interfaces, and simple communication systems, namely in the development of a small Bank to ATM system, with a notepad pseudo server backend, and a GUI written using Java Swing.</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td><p class="text-center"><b>Data Structures<br>Coursework<br>(Team)</b></p><p class="text-center"><small><i>Python</i></small></p></td>
-                              <td>
-                                <p>The project in this course focused exclusively on working in a team of two, to expand an simple recursive AI for an application emulating the board game, San Francisco Cable Cars, to encompassing more advance data structures and game theory to improve the quality of the AI in competition with out students' AIs. </p>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                    </div>
-                      <br>
-
-                      <!-- Math Minor Section -->
-                      <p><b>Minor in Mathematics </b></p>
-                      <div class = "collapse-group">
-                        <div class="text-center">
-                          <a class="btn btn-sm btn-primary text-center center-block" data-toggle="collapse" data-target="#secondaryinfo">Coursework Details &raquo;</a>
-                        </div>
-                        <table class="table table-striped collapse" id="secondaryinfo">
-                          <thead>
-                            <tr>
-                              <th class="col-md-4"><h3>Courses</h3></th>
-                              <th></th>
-                              <th></th>
-                            </tr>
-                          </thead>
-
-                          <tbody>
-                            <tr>
-                              <td><b>Game Theory</b></td>
-                              <td><b>Probability &amp; Statistics</b></td>
-                              <td><b>Discrete Mathematics II</b></td>
-                            </tr>
-                            <tr>
-                              <td><b>Adv. Linear Algebra</b></td>
-                              <td><b>Linear Algebra</b></td>
-                              <td><b>Multivariable Calculus</b></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                    </div>
                   </div>
                   <HR />
                 </div>
@@ -423,114 +381,154 @@
             <div class = "row">
                 <div class="col-md-6 col-md-offset-3">
                   <div class="text-center">
-                    <h1 id = "workExp">Work Experience</h1>
+                    <h1 id = "workExp">Experience</h1>
                   </div>
 
+                      <p><b>Harris Corporation</b></p>
+                      <p><b>Software Engineer</b></p>
+                      <h6>May 2016 - Present</h6>
+                      <p><i>Languages: <b>C++, C, Batch, Bash, Make</b></i><p>
+                      <ul>
+                      <li>Design and develop embedded system architecture and code utilizing C and CORBA (C++)</li>
+                      <li>Update and refine build and installation generation scripts in Bash, Batch, and Make on Unix and Windows</li>
+                      <li>Perform continuous integration and smoke testing for classified software and equipment</li>
+                      <li>Evaluate solutions for bugs and critical release systems within several classified projects</li>
+                      <li>Collect and interpret critical metric parameters for validation and optimization efforts</li>
+                      </ul>
+
+                      <br>
 
                       <p><b>Rochester Inst. of Tech. Computer Science Department</b></p>
                       <p><b>Student Lab Instructor</b></p>
-                      <h6>August, 2015 - Present</h6>
-                      <p><i>Leading lab sessions for Computer Science 1 and 2, as well as provide tutoring and assistance in completion of lab assignments. In addition to this I am responsible for the grading of the aforementioned assignments.</i><p>
-                      <p><i>Languages: <b>Python, Java</b></i><p>
+                      <h6>August, 2014 - May 2016</h6>
+                      <p><i>Languages: <b>Python, Java, C</b></i><p>
+                      <ul>
+                      <li>Led weekly problem solving lab sessions for Computer Science I and II courses in Python and Java</li>
+                      <li>Assisted students in understanding programming concepts and problem solving skills</li>
+                      <li>Graded weekly lab assignments in Python, Java, and C</li>
+                      </ul>
 
                       <br>
 
                       <p><b>JPMorgan Chase &amp; Co.</b></p>
                       <p><b>Summer Technology Analyst</b></p>
                       <h6>June, 2015 - August 2015</h6>
-                      <p><i>Worked with an international team on several modules for an internal system in its early design stage related to database scrubbing, metric gathering, and feedback display using PL/SQL stored procedures in the backend, Java for application to UI communication, and Javascript (ExtJS) for a front end GUI.</i><p>
                       <p><i>Languages: <b>Java, PLSQL, Javascript</b></i><p>
-
-                      <br>
-
-                      <p><b>Rochester Inst. of Tech. Computer Science Department</b></p>
-                      <p><b>Homework Grader</b></p>
-                      <h6>Janurary, 2015 - Present</h6>
-                      <p><i>Graded homework assignments and projects written in C for RIT's Mechanics of Programming course.</i><p>
-                      <p><i>Languages: <b>C</b></i><p>
-
-                      <br>
-
-                      <p><b>Rochester Inst. of Tech. Computer Science Department</b></p>
-                      <p><b>Student Lab Instructor</b></p>
-                      <h6>August, 2014 - December, 2014</h6>
-                      <p><i>Led lab sessions for Computer Science 1, and subsequently provided tutoring and assistance in completion of lab assignments. In addition to this I was responsible for the grading of the aforementioned assignments.</i><p>
-                      <p><i>Languages: <b>Python</b></i><p>
-
+                      <ul>
+                      <li>Built comprehensive stored procedures for PLSQL back-end database used in a debugging and data optimization suite for an internal company application transferring and interpreting Bloomberg data</li>
+                      <li>Modified front-end GUI interfaces using Javascript and Ext JS 4.0 Framework for web based application</li>
+                      <li>Authored system architecture documentation and project requirements for domestic and international clientele</li>
+                      </ul>
                       <br>
 
                       <p><b>United Technology Aerospace Systems - Power, Control &amp; Sensing</b></p>
                       <p><b>Software Engineering Co-op</b></p>
                       <h6>Janurary, 2014 - August, 2014</h6>
-                      <p><i>Responsible for entirety of both legacy and state-of-the-art software systems. Directly involved and partially managing all development, primary internal customer support, and documentation on site. </i><p>
                       <p><i>Languages: <b>C#, SQL, PLSQL, XML</b></i><p>
+                      <ul>
+                      <li>Redesigned proprietary software using C# with SQL and PLSQL back-end databases to incorporate multi-threaded solutions as opposed to previously single-threaded implementations</li>
+                      <li>Upgraded platform level software relevant to CNC machine use on Windows-based Terminals</li>
+                      <li>Implemented and designed standard web application for plant wide workflow management using proprietary tools, C#, SQL, and XML</li>
+                      <li>Standardized and established local plant site software documentation, including requirement documentation, design documentation, and coding conventions</li>
+                      <li>Mentored Software Engineering cooperative education students</li>
+                      <li>Maintained in-house information technology, i.e. terminals, servers and production machinery</li>
+                      </ul>
 
-                      <div class = "collapse-group">
-                        <div class="text-center">
-                          <a class="btn btn-sm btn-primary text-center center-block" data-toggle="collapse" data-target="#utasProj">UTAS Projects &raquo;</a>
-                        </div>
-                        <table class="table table-striped collapse" id="utasProj">
+                </div>
+              </div>
+              <HR />
+
+              <!-- Project Section -->
+              <div class = "row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="text-center">
+                      <h1 id="projectExp">Projects</h1>
+                    </div>
+
+                      <div class = "span12">
+                        <table class="table table-striped" id="projectInfo">
                           <thead>
                             <tr>
-                              <br>
+                              <th class="col-md-10"> Project</th>
+                              <th><p class="text-center">Tools</p></th>
+                              <th><p class="text-center">Repository</p></th>
+                              <th><p class="text-center">Output</p></th>
                             </tr>
                           </thead>
 
                           <tbody>
+                            <!-- Project: Smoke Simulation -->
                             <tr>
-                              <td><p class="text-center"><b>Digital<br>FIFO Lane<br>Display System</b></p><p class="text-center"><small><i>C#<br>Oracle<br>W.P.F.</i></small></p></td>
-                              <td>
-                                <p>This particular application was responsible for displaying incoming part orders to a specific work area within the plant site pulled from a large company-wide backend Oracle database.</p>
-                                <p>My responsibilities with this project were related to extended rollout and piloting to several plant areas, and serving as primary customer support for any errors in pilot clients. Additionally, I was responsible for the debugging of several Oracle database queries, and several WPF GUI errors.</p>
-                              </td>
+                              <td><b>Natural Phenomenon: Smoke</b></td>
+                              <td><p class="text-center">C++, OpenGL</p></td>
+                              <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                              <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
                             </tr>
                             <tr>
-                              <td><p class="text-center"><b>CNC<br>Transfer<br>Application</b></p><p class="text-center"><small><i>C#<br>SQL<br>W.P.F.</i></small></p></td>
-                              <td>
-                                <p>This application was responsible for downloading and uploading CNC machine code to and from an internal site repository on client PCs connected to CNC Machines.</p>
-                                <p>My part in this project focused on enforcing data obfuscation techniques on several unsecure database fields accessed within the program, GUI updates, and major implementation refactoring. Additionally deployment of this update was done in sync with the CNC Post Processor listed below, to enforce compatibility between software and avoid database corruption due.</p>
+                              <td colspan="4"> Authored comprehensive graduate level paper and
+                                implemented a two-dimensional and three-dimensional smoke simulation
+                                utilizing a particle system based on Opacity Mapping written in C++ and OpenGL.
                               </td>
                             </tr>
+
+                            <!-- Project Terrain Simulation -->
                             <tr>
-                              <td><p class="text-center"><b>CNC<br>Post<br>Processor<br>Application</b></p><p class="text-center"><small><i>C#<br>SQL<br>W.P.F.</i></small></p></td>
-                              <td>
-                                <p>This application was responsible for uploading machine code to an internal site repository from Engineering Modeling software on department workstations towers, and granting access permissions to code for downloading on the previously mentioned program.</p>
-                                <p>My part in this project focused on enforcing data obfuscation techniques on several unsecure database fields accessed within the program, GUI updates, and major implementation refactoring. Additionally deployment of this update was done in sync with the CNC Transfer Application above, to enforce compatibility between software and avoid database corruption due.</p>
-                              </td>
+                              <td><b>Natural Phenomenon: Terrian</b></td>
+                              <td><p class="text-center">Javascript, WebGL</p></td>
+                              <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                              <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
                             </tr>
                             <tr>
-                              <td><p class="text-center"><b>Document<br>Control<br>Workflow<br>System</b></p><p class="text-center"><small><i>SQL<br>Properitary<br>State<br>Driven<br>Language<br></i></small></p></td>
-                              <td>
-                                <p>This application used an SQL backend and a proprietary company state driven coding language for handling plant site document control processes.</p>
-                                <p>For this project I was tasked with creating initial meetings, drafting requirements and scope documentation, designing the implementation and subsequently building it, as well as providing post-deployment support, patching, and future feature composition and design.</p> 
+                              <td colspan="4" > Analyzed and wrote a Javascript and WebGL based
+                                procedural terrain generator utilizing Simplex, Perlin, and
+                                Layered Noise to create realistic terrain height maps and
+                                render them with varying shaders.
                               </td>
                             </tr>
+
+                            <!-- Project: Ray Tracing -->
                             <tr>
-                              <td><p class="text-center"><b>Software<br>Documentation<br>Standardization</b></p></td>
-                              <td>
-                                <p>This project covered the writing of standard documentation for site-wide software development documentation, including Requirements Specifications templates, Design Specification templates, and code commenting conventions.</p>
-                                <p>I was responsible for seeing this project from its inception to its local piloting. I researched public standard examples, and investigated the needs of our development process in order to compose several documents in line with local needs.</p>
-                              </td>
+                              <td><b>Ray Tracing Whitted</b></td>
+                              <td><p class="text-center">Java, OpenGL</p></td>
+                              <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                              <td><p class="text-center"><a href="pages/ray_tracer.html"><span style="font-size:2em;" class="glyphicon glyphicon-share-alt"></span></a></p></td>
                             </tr>
                             <tr>
-                              <td><p class="text-center"><b>Server<br>Group<br>Policy<br>Management</b></p></td>
-                              <td>
-                                <p>In this project we were moving a local area network server over from one tower to a newer model, while also recreating our local active directory.</p>
-                                <p>My part in this project mostly focused on the creation of several software installation group policies, piloting, and remote administration.</p>
+                              <td colspan="4" > Implemented a Ray Tracer solution incrementally to create
+                               a modular solution that achieves historic implementation benchmarks and utilizes
+                              some more modern tricks as well.
                               </td>
                             </tr>
                           </tbody>
-                        </table>
-                    </div>
 
-                    <p><b>Rochester Inst. of Tech. Academic Support Center</b></p>
-                    <p><b>Supplemental Instruction Leader</b></p>
-                    <h6>September, 2013 - December, 2013</h6>
-                    <p><i>Led weekly study sessions for Computer Science 1, and mentored sudents in areas of study skills, and problem solving techniques.</i><p>
-                    <p><i>Languages: <b>Python</b></i><p>
-                </div>
-              </div>
-              <HR />
+                              <!-- Project: Robotics-->
+                          <tr>
+                            <td><b>Seminar in Robotics</b></td>
+                            <td><p class="text-center">C, Python, Arduino</p></td>
+                            <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                            <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">
+                            </td>
+                          </tr>
+
+                          <!-- Project: Machine Learning  -->
+                          <tr>
+                            <td><b>Seminar in Machine Learning</b></td>
+                            <td><p class="text-center">Python, OpenStreetMap</p></td>
+                            <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                            <td><p class="text-center"><span style="font-size:2em;" class="glyphicon glyphicon-wrench"></span></p></td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">
+                            </td>
+                          </tr>
+                        </table>
+                        <br>
+                    </div>
+                    <HR />
+                  </div>
 
             <!-- Skills Section -->
             <div class = "row">
@@ -540,27 +538,27 @@
                   </div>
 
                       <p><b>Languages - General Purpose</b></p>
-                      <h6>C, C#, C++, Java, Python, Javascript</h6>
+                      <h6>C#, C++ , Python, C, Java, Javascript, BATCH, BASH, jQuery, MAKE, Assembly </h6>
 
                       <br>
 
                       <p><b>Languages - Database</b></p>
-                      <h6>PL/SQL, SQL, SQLite, MySQL</h6>
+                      <h6>SQL, PLSQL, SQLite, MySQL</h6>
 
                       <br>
 
                       <p><b>Languages - Markup</b></p>
-                      <h6>HTML, LaTeX, XML, CSS</h6>
-
-                      <br> 
-
-                      <p><b>Integrated Development Environments</b></p>
-                      <h6>Visual Studios (2012, 2013), IntelliJ IDEA, Eclipse, Eclipse-PyDev, PyCharm,<br>Microsoft SQL Management Studio, Oracle SQL Developer</h6>
+                      <h6>LaTeX, HTML, XML,  CSS</h6>
 
                       <br>
 
-                      <p><b>Frameworks, APIs, and Suites</b></p>
-                      <h6>OpenGL, Django, Bootstrap, ExtJS</h6>
+                      <p><b>IDEs and Development Tools</b></p>
+                      <h6>Visual Studios, Eclipse, SVN, GIT, Subversion, JIRA, Visio, MagicDraw</h6>
+
+                      <br>
+
+                      <p><b>APIs and Frameworks</b></p>
+                      <h6>OpenGL, WebGL, CORBA, ExtJS, Django</h6>
                 </div>
               </div>
               <HR />
